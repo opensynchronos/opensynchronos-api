@@ -1,6 +1,6 @@
 ﻿namespace OpenSynchronos.API.Routes;
 
-public class MareAuth
+public class OpenSynchronosAuth
 {
     public const string OAuth = "/oauth";
     public const string Auth = "/auth";

@@ -1,4 +1,4 @@
-﻿using OpenSynchronos.API.Data;
+using OpenSynchronos.API.Data;
 using OpenSynchronos.API.Data.Enum;
 using OpenSynchronos.API.Dto;
 using OpenSynchronos.API.Dto.CharaData;
@@ -7,7 +7,7 @@ using OpenSynchronos.API.Dto.User;
 
 namespace OpenSynchronos.API.SignalR;
 
-public interface IMareHubClient : IMareHub
+public interface IOpenSynchronosHubClient : IOpenSynchronosHub
 {
     void OnDownloadReady(Action<Guid> act);
 
@@ -59,3 +59,4 @@ public interface IMareHubClient : IMareHub
     void OnGposeLobbyPushPoseData(Action<UserData, PoseData> act);
     void OnGposeLobbyPushWorldData(Action<UserData, WorldData> act);
 }
+

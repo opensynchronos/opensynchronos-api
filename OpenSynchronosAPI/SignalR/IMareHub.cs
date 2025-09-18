@@ -7,7 +7,7 @@ using OpenSynchronos.API.Dto.User;
 
 namespace OpenSynchronos.API.SignalR;
 
-public interface IMareHub
+public interface IOpenSynchronosHub
 {
     const int ApiVersion = 33;
     const string Path = "/mare";

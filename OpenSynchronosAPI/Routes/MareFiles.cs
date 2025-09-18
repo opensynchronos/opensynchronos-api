@@ -1,6 +1,6 @@
 ﻿namespace OpenSynchronos.API.Routes;
 
-public class MareFiles
+public class OpenSynchronosFiles
 {
     public const string Cache = "/cache";
     public const string Cache_Get = "get";
